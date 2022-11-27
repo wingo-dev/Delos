@@ -15,6 +15,8 @@ use App\Http\Controllers\HomeController;
 
 
 Route::get('/', [HomeController::class, 'home']);
+Route::get('/faq', [HomeController::class, 'faq']);
+
 Route::get('/clear', function () {
 
     Artisan::call('cache:clear');
