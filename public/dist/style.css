@@ -9417,8 +9417,8 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .section--skin-3 {
-	background-image: url("../assets/img/common/backgrounds/skin-3.jpg");
-	background-repeat: repeat;
+	background-image: url("../assets/img/common/backgrounds/skin.png");
+	background-repeat: no-repeat;
 }
 
 .section--large {
