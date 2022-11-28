@@ -39,30 +39,19 @@
             <div class="mobile-menu__close js-mobile-menu__close"></div>
             <ul class="mobile-menu js-mobile-menu ">
                 <li class="mobile-menu__item ">
-                    <a href="index.html" class="mobile-menu__link">Home</a>
+                    <a href="/" class="mobile-menu__link">Home</a>
                 </li>
                 <li class="mobile-menu__item ">
-                    <a href="#products" class="mobile-menu__link js-scroll-to">Out Products</a>
+                    <a href="#products" class="mobile-menu__link js-scroll-to">Our Products</a>
                 </li>
                 <li class="mobile-menu__item ">
-                    <a href="#" class="mobile-menu__link">Demo</a>
-                    <ul class="mobile-menu__child">
-                        <li class="mobile-menu__item ">
-                            <a href="#video" class="mobile-menu__link js-scroll-to">Video</a>
-                        </li>
-                        <li class="mobile-menu__item ">
-                            <a href="#screenshots" class="mobile-menu__link js-scroll-to">Screenshots</a>
-                        </li>
-                    </ul>
+                    <a href="#insights" class="mobile-menu__link js-scroll-to">Insights</a>
                 </li>
                 <li class="mobile-menu__item ">
-                    <a href="#team" class="mobile-menu__link js-scroll-to">Team</a>
+                    <a href="#delos" class="mobile-menu__link js-scroll-to">Delos Development</a>
                 </li>
                 <li class="mobile-menu__item ">
-                    <a href="#board" class="mobile-menu__link js-scroll-to">Gallery</a>
-                </li>
-                <li class="mobile-menu__item ">
-                    <a href="#plans" class="mobile-menu__link js-scroll-to">Plans</a>
+                    <a href="#board" class="mobile-menu__link js-scroll-to">Board of Advisors</a>
                 </li>
                 <li class="mobile-menu__item ">
                     <a href="#contacts" class="mobile-menu__link js-scroll-to">Contacts</a>
@@ -74,13 +63,13 @@
         </div>
         <!-- End of Mobile Menu -->
         <!-- Header -->
-        <header class="header js-header ">
+        <header class="header js-header {{ request()->is('/')?'':'faq-color'}} ">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 col-sm-4 col-xs-12">
                         <!-- Logo -->
                         <div class="logo ">
-                            <a href="index.html" class="logo__link">
+                            <a href="/" class="logo__link">
                                 <img src="assets/img/common/logo/logo.png" alt="Logo" class="logo__image js-logo__image"
                                     data-switch="true"> </a>
                         </div>
@@ -91,7 +80,7 @@
                         <nav>
                             <ul class="menu menu--right js-menu sf-menu ">
                                 <li class="menu__item ">
-                                    <a href="index.html" class="menu__link">Home</a>
+                                    <a href="/" class="menu__link">Home</a>
                                 </li>
                                 <li class="menu__item ">
                                     <a href="#products" class="menu__link js-scroll-to">Our Products</a>
@@ -131,28 +120,28 @@
             </a>
             <div class="container">
                 <div class="row center">
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-sm-24">
                         <!-- Logo -->
                         <div class="logo ">
-                            <a href="index.html" class="logo__link">
+                            <a href="/" class="logo__link">
                                 <img src="assets/img/common/logo/logo.png" alt="Logo" class="logo__image">
                             </a>
                         </div>
                         <!-- End of Logo -->
                     </div>
-                    <div class="col-md-6 col-sm-24 col-xs-24 ">
+                    <div class="col-md-6 col-sm-24">
                         <!-- Link List -->
-                        <a href="#" class="link-list__link">FAQ</a>
+                        <a href="/faq" class="link-list__link">FAQ</a>
                         <!-- End of Link List -->
                     </div>
-                    <div class="col-md-6 col-sm-24 col-xs-24">
+                    <div class="col-md-6 col-sm-24">
                         <!-- Link List -->
-                        <a href="#" class="link-list__link">Privacy Policy</a>
+                        <a href="/privacy" class="link-list__link">Privacy Policy</a>
                         <!-- End of Link List -->
                     </div>
-                    <div class="col-md-6 col-sm-24 col-xs-24">
+                    <div class="col-md-6 col-sm-24">
                         <!-- Link List -->
-                        <a href="#" class="link-list__link">Terms of Service</a>
+                        <a href="/terms" class="link-list__link">Terms of Service</a>
                         <!-- End of Link List -->
                     </div>
                 </div>

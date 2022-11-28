@@ -173,34 +173,6 @@
                         solutions, utilizations, and emerging trends in
                         the tech, app, fitness, and fashion industry</li>
                 </ul>
-                <!-- Accordion -->
-                <!-- <ul class="accordion js-accordion ">
-							<li class="accordion__item">
-								<h3 class="accordion__title">
-									<img src="assets/img/secure.png" class="accordion__icon" alt="Accordion Icon"> Sed te dolorum fuisset signiferumque, vis laoreet </h3>
-								<div class="accordion__content">
-									<p>Nisi quae distinctio voluptatum consectetur esse sint tempora unde nam facere est, blanditiis sunt dicta fuga voluptate
-										molestiae ratione nobis cum enim pariatur at iusto adipisci odio eum. Quibusdam ipsa, repellendus accusantium.</p>
-								</div>
-							</li>
-							<li class="accordion__item">
-								<h3 class="accordion__title">
-									<img src="assets/img/bookmark.png" class="accordion__icon" alt="Accordion Icon"> Dicam dicunt vivendo ex cum, per graeci tritani </h3>
-								<div class="accordion__content">
-									<p>Nisi quae distinctio voluptatum consectetur esse sint tempora unde nam facere est, blanditiis sunt dicta fuga voluptate
-										molestiae ratione nobis cum enim pariatur at iusto adipisci odio eum. Quibusdam ipsa, repellendus accusantium.</p>
-								</div>
-							</li>
-							<li class="accordion__item">
-								<h3 class="accordion__title">
-									<img src="assets/img/umbrella.png" class="accordion__icon" alt="Accordion Icon"> Putent putant albucius his te, cu paulo </h3>
-								<div class="accordion__content">
-									<p>Nisi quae distinctio voluptatum consectetur esse sint tempora unde nam facere est, blanditiis sunt dicta fuga voluptate
-										molestiae ratione nobis cum enim pariatur at iusto adipisci odio eum. Quibusdam ipsa, repellendus accusantium.</p>
-								</div>
-							</li>
-						</ul> -->
-                <!-- End of Accordion -->
             </div>
         </div>
     </div>
@@ -498,7 +470,7 @@
             <div class="col-lg-20 col-lg-offset-2 col-md-24 col-md-offset-0">
                 <!-- Contact Form -->
                 <div class="contact-form  ">
-                    <form action="/contact-form.php" class="contact-form__form js-contact-form">
+                    <form action="" class="contact-form__form js-contact-form">
                         <div class="contact-form__modal js-contact-form__modal">
                             <h3 class="contact-form__message"> Your message was sent
                                 <span>successfully</span>
@@ -541,40 +513,6 @@
             </div>
         </div>
     </div>
-    <!-- Socials -->
-    <ul class="socials socials--displaced  ">
-        <li class="socials__item">
-            <a href="#" class="socials__button socials__button--facebook">
-                <i class="fontello-facebook socials__icon"></i>
-            </a>
-        </li>
-        <li class="socials__item">
-            <a href="#" class="socials__button socials__button--twitter">
-                <i class="fontello-twitter-bird socials__icon"></i>
-            </a>
-        </li>
-        <li class="socials__item">
-            <a href="#" class="socials__button socials__button--linkedin">
-                <i class="fontello-linkedin socials__icon"></i>
-            </a>
-        </li>
-        <li class="socials__item">
-            <a href="#" class="socials__button socials__button--google">
-                <i class="fontello-gplus socials__icon"></i>
-            </a>
-        </li>
-        <li class="socials__item">
-            <a href="#" class="socials__button socials__button--pinterest">
-                <i class="fontello-pinterest socials__icon"></i>
-            </a>
-        </li>
-    </ul>
-    <!-- End of Socials -->
-</section>
-<!-- End of Section -->
-<!-- Section -->
-<section class="section section--large section--no-pb " id='contacts'>
-
 </section>
 <!-- End of Section -->
 @endsection

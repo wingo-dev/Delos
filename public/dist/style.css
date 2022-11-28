@@ -3343,6 +3343,7 @@ ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
+	line-height: 1.8;
 }
 
 ul ul {
@@ -10466,4 +10467,31 @@ div.video:before {
 	.socials__item {
 		margin-bottom: 20px;
 	}
+}
+.faq{
+	padding: 150px 0;
+}
+.faq-color{
+	webkit-box-shadow: 0px 1px 7px 0px rgb(0 1 16 / 14%);
+    box-shadow: 0px 1px 7px 0px rgb(0 1 16 / 14%);
+}
+.faq-color .menu__link{
+	
+	color: #000000;
+}
+.faq-color .menu-trigger {
+    border-color: #14171c;
+    -webkit-transition: border-color 0.25s ease;
+    -moz-transition: border-color 0.25s ease;
+    -ms-transition: border-color 0.25s ease;
+    -o-transition: border-color 0.25s ease;
+    transition: border-color 0.25s ease;
+}
+.faq-color .menu-trigger:after, .faq-color .menu-trigger:before {
+    -webkit-transition: background-color 0.25s ease;
+    -moz-transition: background-color 0.25s ease;
+    -ms-transition: background-color 0.25s ease;
+    -o-transition: background-color 0.25s ease;
+    transition: background-color 0.25s ease;
+    background-color: #14171c;
 }

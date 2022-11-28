@@ -13,17 +13,15 @@ use App\Http\Controllers\HomeController;
 |
  */
 
-
-Route::get('/', [HomeController::class, 'home']);
+Route::get('/', [HomeController::class, 'home'])->name('home');
 Route::get('/faq', [HomeController::class, 'faq']);
+Route::get('/privacy', [HomeController::class, 'privacy']);
+Route::get('/terms', [HomeController::class, 'terms']);
 
 Route::get('/clear', function () {
-
     Artisan::call('cache:clear');
     Artisan::call('config:clear');
     Artisan::call('config:cache');
     Artisan::call('view:clear');
-
     return "Cleared!";
-
 });

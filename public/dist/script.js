@@ -23340,7 +23340,7 @@ will produce an inaccurate conversion value. The same issue exists with the cx/c
 			} else {
 				header.addClass('header--fixed');
 				if (logo.data('switch') === true) {
-					logo.attr("src", "assets/img/common/logo/logo-dark.png");
+					logo.attr("src", "assets/img/common/logo/logo.png");
 				}
 			}
 		};
