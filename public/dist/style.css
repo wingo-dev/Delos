@@ -8503,6 +8503,7 @@ body.logged-in .YouTubePopUp-Wrap {
    Dependencies: no dependencies
    ========================================================================== */
 .list {
+	margin-top: 40px;
 	margin-bottom: 40px;
 	position: relative;
 }

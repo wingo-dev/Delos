@@ -23337,6 +23337,9 @@ will produce an inaccurate conversion value. The same issue exists with the cx/c
 				if (logo.data('switch') === true) {
 					logo.attr("src", "assets/img/common/logo/logo.png");
 				}
+				if ($("#delos").hasClass("faq-color")){
+					logo.attr("src", "assets/img/common/logo/dark_logo.png");
+				}
 			} else {
 				header.addClass('header--fixed');
 				if (logo.data('switch') === true) {
