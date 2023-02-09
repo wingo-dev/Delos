@@ -7979,7 +7979,8 @@ body.logged-in .YouTubePopUp-Wrap {
 .download-button {
 	background-color: white;
 	position: relative;
-	padding: 20px 20px 20px 80px;
+	padding: 20px 20px 20px 20px;
+	text-align: center;
 	display: block;
 	max-width: 275px;
 	margin: 0 auto 0 auto;
@@ -8508,25 +8509,37 @@ body.logged-in .YouTubePopUp-Wrap {
 	position: relative;
 }
 
-.list--check .list__item:before {
-	position: absolute;
-	left: 0;
-	margin-right: 8px;
-	color: #1eb858;
-	font-family: "fontello";
+/*.list--check .list__item:before {*/
+/*	position: absolute;*/
+/*	left: 0;*/
+/*	margin-right: 8px;*/
+/*	color: #1eb858;*/
+/*	font-family: "fontello";*/
+/*}*/
+#screenshots{
+    display:none;
 }
-
+#contacts{
+    display: none;
+}
 .list--boxes .list__item {
 	display: inline-block;
 	vertical-align: top;
 }
 
 .list__item {
-	padding: 7px 0 7px 25px;
+	padding: 7px 0 7px 0px;
 	line-height: 25px;
 	font-size: 16px;
 }
-
+.list__item:before {
+    content: '\e80d';
+    position: absolute;
+    left: 20px;
+    margin-right: 8px;
+    color: #1eb858;
+    font-family: "fontello";
+}
 .logo__link {
 	font-weight: 600;
 	line-height: 40px;

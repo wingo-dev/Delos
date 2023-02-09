@@ -14,20 +14,18 @@
                 <!-- End of Section Title -->
                 <!-- Section Subtitle -->
                 <p class="section-subtitle section-subtitle--left section-subtitle--hero ">
-                    A new app was released, the first one of its kind. It is created to take advantage of the newest,
-                    most amazing technology:
-                    Smartphones. Everyone wants one, or they will do anything to get it. You are asked to code and
-                    program this application
-                    so it works well on smartphones. </p>
+                    Delos is a mobile-first technology platform powering a suite of apps utilizing short-form video and
+                    livestream to drive social community with integrated ecommerce known as “Social Selling” </p>
                 <!-- End of Section Subtitle -->
                 <!-- Button -->
                 <div class="button button--small button--inline button--shadow  ">
-                    <a href="http://fytness.com/" class="button__link" target="_blank">See more</a>
+                    <a href="#products" class="button__link">See more</a>
                 </div>
                 <!-- End of Button -->
                 <!-- Button -->
                 <div class="button button--small button--inline button--blue button--shadow  ">
-                    <a href="#download" class="button__link">Download</a>
+                    <a href="https://apps.apple.com/us/app/fytness/id1573929271" class="button__link"
+                        target="_blank">Download</a>
                 </div>
                 <!-- End of Button -->
             </div>
@@ -42,41 +40,68 @@
 </div>
 <!-- End of Hero -->
 <!-- Section -->
+<section class="section section--skin-1 " id='products'>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-24">
+                <!-- Section Title -->
+                <h2 class="section-title section-title--center ">Our Products</h2>
+                <!-- End of Section Title -->
+                <p class="section-subtitle"> Fytness - A short form video based fitness app
+                    building a community to
+                    inspire physical and emotional well-being, positive mental health and providing a space for users to
+                    share their fitness talents, passions, and journeys. </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-8 col-lg-offset-2">
+                <div class="download-button">
+                    <span class="download-button__store">Fashyn</span>
+                    <div class="list__item">Fashyn-In Development</div>
+                    <div class="box  ">
+                            <img src="assets/img/phone.png" class="box__icon" alt="Box icon"> </div>
+                        
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-8 col-lg-offset-1">
+                <div class="download-button">
+                    <span class="download-button__store">Fytness</span>
+                    <div class="list__item">Fytness-live</div>
+                     <div class="box  ">
+                            <img src="assets/img/clock.png" class="box__icon" alt="Box icon"> </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-8 col-lg-offset-1">
+                <div class="download-button">
+                    <span class="download-button__store">Muzyk</span>
+                    <div class="list__item">Muzyk- In Development</div>
+                    <div class="box  ">
+                            <img src="assets/img/tester.png" class="box__icon" alt="Box icon"> </div>
+                </div>
+            </div>
+        </div>
+     
+    </div>
+</section>
+<!-- End of Section -->
+<!-- Section -->
 <section class="section section--grey " id='download'>
     <div class="container">
         <div class="row">
             <div class="col-md-24">
                 <!-- Section Title -->
-                <h2 class="section-title section-title--center "> Download this
-                    <span class='section-title__highlight'>Delos</span> app </h2>
+                <h2 class="section-title section-title--center "> Download the
+                    <span class='section-title__highlight'>Fytness</span> app </h2>
                 <!-- End of Section Title -->
                 <!-- Section Subtitle -->
-                <p class="section-subtitle section-subtitle--center "> available on all modern operating systems </p>
+                <p class="section-subtitle section-subtitle--center "> available on iOS </p>
                 <!-- End of Section Subtitle -->
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-6 col-md-8 col-lg-offset-2">
+            <div class="col-lg-24 col-md-24">
                 <!-- Download Button -->
-                <a class="download-button  " href="#">
-                    <img src="assets/img/1.png" class="download-button__icon" alt="Platform Icon">
-                    <span class="download-button__platform">Android app on</span>
-                    <span class="download-button__store">Google Play</span>
-                </a>
-                <!-- End of Download Button -->
-            </div>
-            <div class="col-lg-6 col-md-8 col-lg-offset-1">
-                <!-- Download Button -->
-                <a class="download-button  " href="#">
-                    <img src="assets/img/2.png" class="download-button__icon" alt="Platform Icon">
-                    <span class="download-button__platform">Desktop app on</span>
-                    <span class="download-button__store">Mac App Store</span>
-                </a>
-                <!-- End of Download Button -->
-            </div>
-            <div class="col-lg-6 col-md-8 col-lg-offset-1">
-                <!-- Download Button -->
-                <a class="download-button  " href="#">
+                <a class="download-button  " href="https://apps.apple.com/us/app/fytness/id1573929271" target="_blank">
                     <img src="assets/img/3.png" class="download-button__icon" alt="Platform Icon">
                     <span class="download-button__platform">IOS app on</span>
                     <span class="download-button__store">App Store</span>
@@ -87,129 +112,7 @@
     </div>
 </section>
 <!-- End of Section -->
-<!-- Section -->
-<section class="section section--skin-1 " id='products'>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12">
-                <!-- Push -->
-                <div class="push push--60  "> </div>
-                <!-- End of Push -->
-                <!-- Section Title -->
-                <h2 class="section-title "> Our Products </h2>
-                <!-- End of Section Title -->
-                <!-- Section Subtitle -->
-                <p class="section-subtitle "> In the current video app, we will introduce video function, both for users
-                    and for publishers. Users can upload a video,
-                    or choose one from the cloud drive. </p>
-                <!-- End of Section Subtitle -->
-                <!-- List -->
-                <ul class="list list--check  ">
-                    <li class="list__item">Similar to pitch template slide</li>
-                    <li class="list__item">Live: Fytness</li>
-                    <li class="list__item">In development: Fashyn</li>
-                    <li class="list__item">Future: Artyst/Muzyk/performynce</li>
-                </ul>
-                <!-- End of List -->
-                <!-- List -->
-                <ul class="list list--boxes  ">
-                    <li class="list__item">
-                        <!-- Box -->
-                        <div class="box  ">
-                            <img src="assets/img/phone.png" class="box__icon" alt="Box icon"> </div>
-                        <!-- End of Box -->
-                    </li>
-                    <li class="list__item">
-                        <!-- Box -->
-                        <div class="box  ">
-                            <img src="assets/img/clock.png" class="box__icon" alt="Box icon"> </div>
-                        <!-- End of Box -->
-                    </li>
-                    <li class="list__item">
-                        <!-- Box -->
-                        <div class="box  ">
-                            <img src="assets/img/tester.png" class="box__icon" alt="Box icon"> </div>
-                        <!-- End of Box -->
-                    </li>
-                </ul>
-                <!-- End of List -->
-            </div>
-            <div class="col-lg-12 col-md-11 col-md-offset-1 col-lg-offset-0">
-                <!-- Screens Preview -->
-                <div class="screens-preview screens-preview--right  ">
-                    <img src="assets/img/product1.jpg" class="screens-preview__primary" alt="Primary Screenshot">
-                    <img src="assets/img/product2.jpg" class="screens-preview__secondary" alt="Secondary Screenshot">
-                </div>
-                <!-- End of Screens Preview -->
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-13 col-md-13">
-                <!-- Screens Preview -->
-                <div class="screens-preview  ">
-                    <img src="assets/img/three girl.jpg" class="screens-preview__primary" alt="Primary Screenshot">
-                    <img src="assets/img/man.jpg" class="screens-preview__secondary" alt="Secondary Screenshot"> </div>
-                <!-- End of Screens Preview -->
-            </div>
-            <div class="col-lg-11 col-md-10 col-lg-offset-0 col-md-offset-1" id="insights">
-                <!-- Push -->
-                <div class="push push--100  "> </div>
-                <!-- End of Push -->
-                <!-- Section Title -->
-                <h2 class="section-title "> Insights </h2>
-                <!-- End of Section Title -->
-                <!-- Section Subtitle -->
-                <p class="section-subtitle "> If you are looking for a profitable business idea to start with, look no
-                    further. People love to film events and share
-                    the experience through social media. You just need to connect this need with the right people and
-                    you will be on your
-                    way to success. </p>
-                <!-- End of Section Subtitle -->
-                <ul class="list list--check  ">
-                    <li class="list__item"> Repost articles related to tech startups, investors, Forbes/Medium/etc.
-                        business stuff related to our business and
-                        business model and the short-form video industry as a whole</li>
-                    <li class="list__item">Write blog posts: thought provoking pieces on new and emerging tech
-                        solutions, utilizations, and emerging trends in
-                        the tech, app, fitness, and fashion industry</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End of Section -->
-<!-- Section -->
-<section class="section section--grey " id='delos'>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-24">
-                <!-- Section Title -->
-                <h2 class="section-title section-title--center "> Delos Development College Ambassador
-                    <span class='section-title__highlight'>Program</span>
-                </h2>
-                <!-- End of Section Title -->
-                <!-- Section Subtitle -->
-                <p class="section-subtitle section-subtitle--center ">If you’re a college student or collegiate
-                    student-athlete, contact us (see form below) to learn more about becoming
-                    a Delos Ambassador!</p>
-                <!-- End of Section Subtitle -->
-            </div>
-        </div>
-    </div>
-    <!-- Video -->
-    <div class="video  ">
-        <a href="https://youtu.be/q4xKvHANqjk" class="video__holder js-video">
-            <img src="assets/img/video cover.jpg" class="video__primary" alt="Primary Video Thumbnail">
-            <img src="assets/img/video cover1.jpg" class="video__secondary video__secondary--left"
-                alt="Secondary Video Thumbnail">
-            <img src="assets/img/video cover2.jpg" class="video__secondary video__secondary--right"
-                alt="Secondary Video Thumbnail">
-            <span class="video__button"></span>
-        </a>
-    </div>
-    <!-- End of Video -->
-</section>
-<!-- End of Section -->
+
 <!-- Section -->
 <section class="section section--skin-2 " id='screenshots'>
     <div class="container">
@@ -245,10 +148,10 @@
                     <div id="firstTab" class="tabs__content">
                         <div class="tabs__izometric">
                             <img src="assets/img/portfolio/great1.png" class="tabs__screenshot" alt="Screen preview">
-                            <img src="assets/img/portfolio/great2.png" class="tabs__screenshot" alt="Screen preview">
-                            <img src="assets/img/portfolio/great3.png" class="tabs__screenshot" alt="Screen preview">
-                            <img src="assets/img/portfolio/great4.png" class="tabs__screenshot" alt="Screen preview">
-                            <img src="assets/img/portfolio/great5.png" class="tabs__screenshot" alt="Screen preview">
+                            <img src="assets/img/portfolio/great2.webp" class="tabs__screenshot" alt="Screen preview">
+                            <img src="assets/img/portfolio/great3.webp" class="tabs__screenshot" alt="Screen preview">
+                            <img src="assets/img/portfolio/great4.webp" class="tabs__screenshot" alt="Screen preview">
+                            <img src="assets/img/portfolio/great5.webp" class="tabs__screenshot" alt="Screen preview">
                             <img src="assets/img/portfolio/great6.png" class="tabs__screenshot" alt="Screen preview">
                         </div>
                         <div class="tabs__regular">
@@ -257,16 +160,16 @@
                                     <img src="assets/img/portfolio/great1.png" class="tabs__screenshot"
                                         alt="Screen preview"> </div>
                                 <div class="col-md-8 col-sm-12 col-xs-24">
-                                    <img src="assets/img/portfolio/great2.png" class="tabs__screenshot"
+                                    <img src="assets/img/portfolio/great2.webp" class="tabs__screenshot"
                                         alt="Screen preview"> </div>
                                 <div class="col-md-8 col-sm-12 col-xs-24">
-                                    <img src="assets/img/portfolio/great3.png" class="tabs__screenshot"
+                                    <img src="assets/img/portfolio/great3.webp" class="tabs__screenshot"
                                         alt="Screen preview"> </div>
                                 <div class="col-md-8 col-sm-12 col-xs-24">
-                                    <img src="assets/img/portfolio/great4.png" class="tabs__screenshot"
+                                    <img src="assets/img/portfolio/great4.webp" class="tabs__screenshot"
                                         alt="Screen preview"> </div>
                                 <div class="col-md-8 col-sm-12 col-xs-24">
-                                    <img src="assets/img/portfolio/great5.png" class="tabs__screenshot"
+                                    <img src="assets/img/portfolio/great5.webp" class="tabs__screenshot"
                                         alt="Screen preview"> </div>
                                 <div class="col-md-8 col-sm-12 col-xs-24">
                                     <img src="assets/img/portfolio/great6.png" class="tabs__screenshot"
@@ -277,10 +180,10 @@
                     <div id="secondTab" class="tabs__content">
                         <div class="tabs__izometric">
                             <img src="assets/img/portfolio/great1.png" class="tabs__screenshot" alt="Screen preview">
-                            <img src="assets/img/portfolio/great2.png" class="tabs__screenshot" alt="Screen preview">
-                            <img src="assets/img/portfolio/great3.png" class="tabs__screenshot" alt="Screen preview">
-                            <img src="assets/img/portfolio/great4.png" class="tabs__screenshot" alt="Screen preview">
-                            <img src="assets/img/portfolio/great5.png" class="tabs__screenshot" alt="Screen preview">
+                            <img src="assets/img/portfolio/great2.webp" class="tabs__screenshot" alt="Screen preview">
+                            <img src="assets/img/portfolio/great3.webp" class="tabs__screenshot" alt="Screen preview">
+                            <img src="assets/img/portfolio/great4.webp" class="tabs__screenshot" alt="Screen preview">
+                            <img src="assets/img/portfolio/great5.webp" class="tabs__screenshot" alt="Screen preview">
                             <img src="assets/img/portfolio/great6.png" class="tabs__screenshot" alt="Screen preview">
                         </div>
                         <div class="tabs__regular">
@@ -289,16 +192,16 @@
                                     <img src="assets/img/portfolio/great1.png" class="tabs__screenshot"
                                         alt="Screen preview"> </div>
                                 <div class="col-md-8 col-sm-12 col-xs-24">
-                                    <img src="assets/img/portfolio/great2.png" class="tabs__screenshot"
+                                    <img src="assets/img/portfolio/great2.webp" class="tabs__screenshot"
                                         alt="Screen preview"> </div>
                                 <div class="col-md-8 col-sm-12 col-xs-24">
-                                    <img src="assets/img/portfolio/great3.png" class="tabs__screenshot"
+                                    <img src="assets/img/portfolio/great3.webp" class="tabs__screenshot"
                                         alt="Screen preview"> </div>
                                 <div class="col-md-8 col-sm-12 col-xs-24">
-                                    <img src="assets/img/portfolio/great4.png" class="tabs__screenshot"
+                                    <img src="assets/img/portfolio/great4.webp" class="tabs__screenshot"
                                         alt="Screen preview"> </div>
                                 <div class="col-md-8 col-sm-12 col-xs-24">
-                                    <img src="assets/img/portfolio/great5.png" class="tabs__screenshot"
+                                    <img src="assets/img/portfolio/great5.webp" class="tabs__screenshot"
                                         alt="Screen preview"> </div>
                                 <div class="col-md-8 col-sm-12 col-xs-24">
                                     <img src="assets/img/portfolio/great6.png" class="tabs__screenshot"
@@ -309,10 +212,10 @@
                     <div id="thirdTab" class="tabs__content">
                         <div class="tabs__izometric">
                             <img src="assets/img/portfolio/great1.png" class="tabs__screenshot" alt="Screen preview">
-                            <img src="assets/img/portfolio/great2.png" class="tabs__screenshot" alt="Screen preview">
-                            <img src="assets/img/portfolio/great3.png" class="tabs__screenshot" alt="Screen preview">
-                            <img src="assets/img/portfolio/great4.png" class="tabs__screenshot" alt="Screen preview">
-                            <img src="assets/img/portfolio/great5.png" class="tabs__screenshot" alt="Screen preview">
+                            <img src="assets/img/portfolio/great2.webp" class="tabs__screenshot" alt="Screen preview">
+                            <img src="assets/img/portfolio/great3.webp" class="tabs__screenshot" alt="Screen preview">
+                            <img src="assets/img/portfolio/great4.webp" class="tabs__screenshot" alt="Screen preview">
+                            <img src="assets/img/portfolio/great5.webp" class="tabs__screenshot" alt="Screen preview">
                             <img src="assets/img/portfolio/great6.png" class="tabs__screenshot" alt="Screen preview">
                         </div>
                         <div class="tabs__regular">
@@ -321,16 +224,16 @@
                                     <img src="assets/img/portfolio/great1.png" class="tabs__screenshot"
                                         alt="Screen preview"> </div>
                                 <div class="col-md-8 col-sm-12 col-xs-24">
-                                    <img src="assets/img/portfolio/great2.png" class="tabs__screenshot"
+                                    <img src="assets/img/portfolio/great2.webp" class="tabs__screenshot"
                                         alt="Screen preview"> </div>
                                 <div class="col-md-8 col-sm-12 col-xs-24">
-                                    <img src="assets/img/portfolio/great3.png" class="tabs__screenshot"
+                                    <img src="assets/img/portfolio/great3.webp" class="tabs__screenshot"
                                         alt="Screen preview"> </div>
                                 <div class="col-md-8 col-sm-12 col-xs-24">
-                                    <img src="assets/img/portfolio/great4.png" class="tabs__screenshot"
+                                    <img src="assets/img/portfolio/great4.webp" class="tabs__screenshot"
                                         alt="Screen preview"> </div>
                                 <div class="col-md-8 col-sm-12 col-xs-24">
-                                    <img src="assets/img/portfolio/great5.png" class="tabs__screenshot"
+                                    <img src="assets/img/portfolio/great5.webp" class="tabs__screenshot"
                                         alt="Screen preview"> </div>
                                 <div class="col-md-8 col-sm-12 col-xs-24">
                                     <img src="assets/img/portfolio/great6.png" class="tabs__screenshot"
@@ -343,112 +246,6 @@
                 <!-- Push -->
                 <div class="push push--150  "> </div>
                 <!-- End of Push -->
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-24">
-                <!-- Section Title -->
-                <h2 class="section-title section-title--center "> Some
-                    <span class='section-title__highlight'>cool stats</span> about our app </h2>
-                <!-- End of Section Title -->
-                <!-- Section Subtitle -->
-                <p class="section-subtitle section-subtitle--center "> Lorem ipsum dolor sit amet, eos fierent
-                    pertinacia eu est elit tincidunt sadipscing te </p>
-                <!-- End of Section Subtitle -->
-            </div>
-            <div class="col-md-6 col-md-offset-2 col-sm-8">
-                <!-- Stats -->
-                <div class="stats  ">
-                    <h3 class="stats__number js-stats__number" data-units="" data-number="15">0</h3>
-                    <p class="stats__description">App Awards</p>
-                </div>
-                <!-- End of Stats -->
-            </div>
-            <div class="col-md-6 col-md-offset-1 col-sm-8">
-                <!-- Stats -->
-                <div class="stats stats--short  ">
-                    <h3 class="stats__number js-stats__number" data-units="k" data-number="200">0</h3>
-                    <p class="stats__description">Downloads</p>
-                </div>
-                <!-- End of Stats -->
-            </div>
-            <div class="col-md-6 col-md-offset-1 col-sm-8">
-                <!-- Stats -->
-                <div class="stats  ">
-                    <h3 class="stats__number js-stats__number" data-units="" data-number="50">0</h3>
-                    <p class="stats__description">Design Awards</p>
-                </div>
-                <!-- End of Stats -->
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End of Section -->
-<!-- Section -->
-<section class="section section--grey section--large " id='board'>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-24">
-                <!-- Section Title -->
-                <h2 class="section-title section-title--center "> What our
-                    <span class='section-title__highlight'>Board of Advisors</span> say </h2>
-                <!-- End of Section Title -->
-                <!-- Section Subtitle -->
-                <p class="section-subtitle section-subtitle--center "> </p>
-                <!-- End of Section Subtitle -->
-                <!-- Testimonials -->
-                <div class="testimonials js-testimonials ">
-                    <ul class="testimonials__header">
-                        <li class="testimonials__title">
-                            <a class="testimonials__link" href="#first-testimonial">
-                                <img src="assets/img/advisor1.jpg" class="testimonials__photo" alt="Testimonial Photo">
-                                <span class="testimonials__name">Vlad Sargu</span>
-                                <span class="testimonials__position">CEO at
-                                    <span class='testimonials__highlight'>VSArt</span>
-                                </span>
-                            </a>
-                        </li>
-                        <li class="testimonials__title">
-                            <a class="testimonials__link" href="#second-testimonial">
-                                <img src="assets/img/advisor2.jpg" class="testimonials__photo" alt="Testimonial Photo">
-                                <span class="testimonials__name">Christine May</span>
-                                <span class="testimonials__position">marketer at
-                                    <span class='testimonials__highlight'>SpicyTeam</span>
-                                </span>
-                            </a>
-                        </li>
-                        <li class="testimonials__title">
-                            <a class="testimonials__link" href="#third-testimonial">
-                                <img src="assets/img/advisor3.jpg" class="testimonials__photo" alt="Testimonial Photo">
-                                <span class="testimonials__name">Andy Way</span>
-                                <span class="testimonials__position">designer at
-                                    <span class='testimonials__highlight'>DDB</span>
-                                </span>
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="testimonials__wrapper">
-                        <i class="fontello-quote-right"></i>
-                        <div class="testimonials__content">
-                            <blockquote id="first-testimonial" class="testimonials__quote">
-                                <span>Delos is an immersive, interactive music and event experience. Delos is the first
-                                    digital music service to offer
-                                    streaming concerts and events in virtual reality.</span>
-                            </blockquote>
-                            <blockquote id="second-testimonial" class="testimonials__quote">
-                                <span>With Delos video app, you can stream live events together, enjoy your own curated
-                                    library of videos and music,
-                                    or explore exciting new content. The app is free to download and use on your Android
-                                    device.</span>
-                            </blockquote>
-                            <blockquote id="third-testimonial" class="testimonials__quote">
-                                <span>Delos is a video app that allows users to share the best in music, events, and
-                                    culture.</span>
-                            </blockquote>
-                        </div>
-                    </div>
-                </div>
-                <!-- End of Testimonials -->
             </div>
         </div>
     </div>

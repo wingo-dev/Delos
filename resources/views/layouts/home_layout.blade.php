@@ -45,13 +45,7 @@
                     <a href="#products" class="mobile-menu__link js-scroll-to">Our Products</a>
                 </li>
                 <li class="mobile-menu__item ">
-                    <a href="#insights" class="mobile-menu__link js-scroll-to">Insights</a>
-                </li>
-                <li class="mobile-menu__item ">
-                    <a href="#delos" class="mobile-menu__link js-scroll-to">Delos Development</a>
-                </li>
-                <li class="mobile-menu__item ">
-                    <a href="#board" class="mobile-menu__link js-scroll-to">Board of Advisors</a>
+                    <a href="/contest" class="menu__link">Contest Rules</a>
                 </li>
                 <li class="mobile-menu__item ">
                     <a href="#contacts" class="mobile-menu__link js-scroll-to">Contacts</a>
@@ -63,7 +57,7 @@
         </div>
         <!-- End of Mobile Menu -->
         <!-- Header -->
-        <header class="header js-header {{ request()->is('/')?'':'faq-color'}} ">
+        <header class="header js-header {{ request()->is('/')?'':'faq-color header--fixed'}}" id="delos">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 col-sm-4 col-xs-12">
@@ -86,13 +80,7 @@
                                     <a href="#products" class="menu__link js-scroll-to">Our Products</a>
                                 </li>
                                 <li class="menu__item ">
-                                    <a href="#insights" class="menu__link js-scroll-to">Insights</a>
-                                </li>
-                                <li class="menu__item ">
-                                    <a href="#delos" class="menu__link js-scroll-to">Delos Development</a>
-                                </li>
-                                <li class="menu__item ">
-                                    <a href="#board" class="menu__link js-scroll-to">Board of Advisors</a>
+                                    <a href="contest" class="menu__link">Contest Rules</a>
                                 </li>
                                 <li class="menu__item ">
                                     <a href="#contacts" class="menu__link js-scroll-to">Contacts</a>
@@ -124,7 +112,7 @@
                         <!-- Logo -->
                         <div class="logo ">
                             <a href="/" class="logo__link">
-                                <img src="assets/img/common/logo/logo.png" alt="Logo" class="logo__image">
+                                <img src="assets/img/common/logo/dark_logo.png" alt="Logo" class="logo__image">
                             </a>
                         </div>
                         <!-- End of Logo -->

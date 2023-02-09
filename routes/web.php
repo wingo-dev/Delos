@@ -17,6 +17,7 @@ Route::get('/', [HomeController::class, 'home'])->name('home');
 Route::get('/faq', [HomeController::class, 'faq']);
 Route::get('/privacy', [HomeController::class, 'privacy']);
 Route::get('/terms', [HomeController::class, 'terms']);
+Route::get('/contest', [HomeController::class, 'contest']);
 
 Route::get('/clear', function () {
     Artisan::call('cache:clear');

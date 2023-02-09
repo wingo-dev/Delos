@@ -25,4 +25,9 @@ class HomeController extends Controller
     {
         return view('terms');
     }
+
+    public function contest()
+    {
+        return view('contest');
+    }
 }
