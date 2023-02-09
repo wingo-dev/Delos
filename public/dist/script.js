@@ -5038,9 +5038,9 @@
 
 			this.isDefaultPrevented = returnTrue;
 
-			if (e) {
-				e.preventDefault();
-			}
+			// if (e) {
+			// 	e.preventDefault();
+			// }
 		},
 		stopPropagation: function() {
 			var e = this.originalEvent;

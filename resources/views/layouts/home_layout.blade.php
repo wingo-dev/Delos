@@ -39,13 +39,13 @@
             <div class="mobile-menu__close js-mobile-menu__close"></div>
             <ul class="mobile-menu js-mobile-menu ">
                 <li class="mobile-menu__item ">
-                    <a href="/" class="mobile-menu__link">Home</a>
+                    <a href="#" class="mobile-menu__link">Home</a>
                 </li>
                 <li class="mobile-menu__item ">
                     <a href="#products" class="mobile-menu__link js-scroll-to">Our Products</a>
                 </li>
                 <li class="mobile-menu__item ">
-                    <a href="/contest" class="menu__link">Contest Rules</a>
+                    <a href="/contest" class="mobile-menu__link">Contest Rules</a>
                 </li>
                 <li class="mobile-menu__item ">
                     <a href="#contacts" class="mobile-menu__link js-scroll-to">Contacts</a>
